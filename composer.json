@@ -1,0 +1,18 @@
+{
+	"repositories": [
+        {
+            "type": "composer",
+            "url": "http://localhost/satis/"
+        }
+    ],
+    "name": "mistylabs/mistyutils",
+    "type": "library",
+    "description": "MistyUtils - collections of utils and helpers",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "mistylabs/mistytesting" : "dev-master"
+    },
+    "autoload": {
+       "psr-0": {"MistyUtils": "src/"}
+    }
+}
