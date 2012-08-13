@@ -1,0 +1,34 @@
+<?php
+
+class ClassName {}
+
+class ClassName2
+{
+
+}
+
+class ClassName3 extends ClassName2 {
+
+}
+
+class ClassName4
+	extends ClassName3 {
+
+}
+
+class ClassName5 implements Interface {
+
+}
+
+class ClassName6
+	implements Interface {
+
+}
+
+class Namespace\Folder\Class {
+
+}
+
+class Class_Name {
+
+}
