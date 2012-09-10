@@ -4,7 +4,7 @@
     "description": "MistyUtils - collections of utils and helpers",
     "minimum-stability": "dev",
     "require-dev": {
-        "mistylabs/mistytesting" : "dev-master"
+        "mystlabs/mistytesting" : "dev-master"
     },
     "autoload": {
        "psr-0": {"MistyUtils": "src/"}
