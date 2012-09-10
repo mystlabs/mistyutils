@@ -20,15 +20,23 @@ class ClassName5 implements Interface {
 
 }
 
-class ClassName6
+class Class_Name {
+
+}
+
+namespace Name\Space;
+
+class Namespaced {
+
+}
+
+class ClassName
 	implements Interface {
 
 }
 
-class Namespace\Folder\Class {
+namespace Name\Space2;
 
-}
-
-class Class_Name {
+class Namespaced {
 
 }

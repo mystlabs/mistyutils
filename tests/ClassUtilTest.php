@@ -15,9 +15,10 @@ class ClassUtilTest extends MistyTesting\Unit
 			'ClassName3',
 			'ClassName4',
 			'ClassName5',
-			'ClassName6',
-			'Namespace\Folder\Class',
 			'Class_Name',
+			'Name\Space\Namespaced',
+			'Name\Space\ClassName',
+			'Name\Space2\Namespaced',
 		), $classes);
 	}
 }
