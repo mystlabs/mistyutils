@@ -56,4 +56,17 @@ class StringUtilTest extends MistyTesting\Unit
 		$this->assertFalse(StringUtil::endsWith($string, false));
 		$this->assertFalse(StringUtil::endsWith($string, true));
 	}
+
+	public function testFindNthOccurence()
+	{
+		$this->assertNull(StringUtil::findNthOccurence('aaaa', 'a', 5));
+		$this->assertNull(StringUtil::findNthOccurence('ciao ciao ciao', 'ciao', 4));
+		$this->assertNull(StringUtil::findNthOccurence('ciao', 'b', 1));
+
+		$this->assertEquals(2, StringUtil::findNthOccurence('aaaa', 'a', 3));
+		$this->assertEquals(3, StringUtil::findNthOccurence('aaaa', 'a', 4));
+		$this->assertEquals(5, StringUtil::findNthOccurence('ciao ciao ciao', 'ciao', 2));
+
+		$this->assertEquals(10, StringUtil::findNthOccurence('/home/user/dir/dir', '/', 3));
+	}
 }
