@@ -2,7 +2,7 @@
 
 use MistyUtils\ClassUtil;
 
-class ClassUtilTest extends MistyTesting\Unit
+class ClassUtilTest extends MistyTesting\UnitTest
 {
 	public function testExtractClassesFromText()
 	{

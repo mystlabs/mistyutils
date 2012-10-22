@@ -2,7 +2,7 @@
 
 use MistyUtils\ArrayValidate;
 
-class ArrayValidateTest extends MistyTesting\Unit
+class ArrayValidateTest extends MistyTesting\UnitTest
 {
 	/**
 	 * @expectedException MistyUtils\Exception\ValidationException

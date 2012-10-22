@@ -2,7 +2,7 @@
 
 use MistyUtils\ArrayUtil;
 
-class ArrayUtilTest extends MistyTesting\Unit
+class ArrayUtilTest extends MistyTesting\UnitTest
 {
 	public function testRemoveBlankElements()
 	{

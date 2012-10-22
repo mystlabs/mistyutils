@@ -2,7 +2,7 @@
 
 use MistyUtils\StringUtil;
 
-class StringUtilTest extends MistyTesting\Unit
+class StringUtilTest extends MistyTesting\UnitTest
 {
 	public function testIsBlank()
 	{

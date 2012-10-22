@@ -2,8 +2,6 @@
 
 namespace MistyUtils;
 
-use Mist\AutoLoader;
-
 class ArrayValidate
 {
 	public static function __callStatic( $method, $args )
